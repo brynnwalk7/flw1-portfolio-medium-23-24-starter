@@ -10,13 +10,22 @@
 
 /* Adjust the positioning of your page.  */
 
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+a:hover {
+  font-size: 25px;
+  color: #48284A;
+}
 
 * {
     box-sizing: border-box;
   }
   
   body {
-    background-color: #f9d60e;
+    background-color: #A3A5C3;
     padding: 20px;
     font-family: Arial;
   }
@@ -35,6 +44,7 @@
   h1 {
     font-size: 50px;
     word-break: break-all;
+    text-align: center;
   }
   
   .content {
@@ -69,4 +79,3 @@
     border-radius: 10px;
   
   }
-  
